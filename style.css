@@ -1,0 +1,105 @@
+/* Webpage style */
+*{
+    background-color:#00d4ff;
+}
+/* Main container */
+.main-container
+{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+
+/* Second Container */
+.container 
+{
+    /* border:1px solid black; */
+    padding:100px;
+}
+
+/* Small container */
+.sm-container
+{
+    text-align: center;
+    background-color:rgb(88, 181, 247);
+    border-radius: 9px;
+    padding:15px;
+}
+
+/* Number and operating area 1 */
+.num-op
+{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgb(88, 181, 247);
+}
+
+/* Number and operatng area 2 */
+.num-op2
+{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgb(88, 181, 247);
+}
+
+/* Number and operatng area 3*/
+.num-op3
+{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgb(88, 181, 247);
+}
+
+/* Number and operatng area 4*/
+.num-op4
+{
+    display:flex;
+    justify-content: space-evenly;
+    background-color:rgb(88, 181, 247);
+}
+
+
+/* Display box */
+.display-box
+{
+    width:226px;
+    height:23px;
+    background-color:white;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border:2px solid rgb(255, 255, 255);
+    color:black;
+    border-radius:5px;
+
+}
+
+/* display focus */
+.display-box:focus
+{
+    outline:none;
+}
+
+button
+{
+    width:50px;
+    margin:5px;
+    margin-top:8px;
+    margin-bottom: 8px;
+    border:none;
+    padding:5px 2px;
+    background-color:rgb(249, 247, 247);
+    cursor:pointer;
+}
+
+/* Botton hover */
+button:hover
+{
+    background-color:white;
+}
+
+/* Botton Active */
+button:active
+{
+    background-color:aliceblue;
+}
+

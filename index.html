@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="container">
+            <div class="sm-container">
+                <input  class="display-box" type="text" id="display-area">
+               <div class="num-op">
+                <button onclick="aptdisplay('1')">1</button>
+                <button onclick="aptdisplay('2')">2</button>
+                <button onclick="aptdisplay('3')">3</button>
+                <button onclick="aptdisplay('4')">4</button>
+               </div>
+               <div class="num-op2">
+                <button onclick="aptdisplay('5')">5</button>
+                <button onclick="aptdisplay('6')">6</button>
+                <button onclick="aptdisplay('7')">7</button>
+                <button onclick="aptdisplay('8')">8</button>
+            </div>
+            <div class="num-op3" >
+                <button onclick="aptdisplay('9')">9</button>
+                <button onclick="aptdisplay('0')">0</button>
+                <button onclick="aptdisplay('+')">+</button>
+                <button onclick="aptdisplay('-')">-</button>
+            </div>
+            <div class="num-op4" >
+                <button onclick="clean()">Del</button>
+                <button onclick=" calculate()">=</button>
+                <button onclick="aptdisplay('*')">×</button>
+                <button onclick="aptdisplay('/')">÷</button>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
